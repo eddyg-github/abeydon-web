@@ -1,0 +1,85 @@
+.section {
+  padding: 44px 40px;
+  border-bottom: 1px solid var(--border);
+}
+
+.label {
+  font-family: 'Cinzel', serif;
+  font-size: 9px;
+  letter-spacing: 4px;
+  color: var(--gold);
+  text-transform: uppercase;
+  opacity: 0.6;
+  margin-bottom: 28px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.label::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: var(--border);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  padding: 24px 24px 24px 28px;
+  position: relative;
+  transition: border-color 0.2s;
+}
+
+.card:hover { border-color: var(--border-gold); }
+
+.card::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0;
+  width: 2px; height: 100%;
+  background: linear-gradient(to bottom, var(--gold), transparent);
+  opacity: 0.5;
+}
+
+.tag {
+  display: inline-block;
+  font-family: 'Cinzel', serif;
+  font-size: 8px;
+  letter-spacing: 2px;
+  background: var(--gold-dim);
+  color: var(--gold);
+  border: 1px solid var(--border-gold);
+  padding: 3px 8px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.date {
+  font-family: 'Cinzel', serif;
+  font-size: 9px;
+  letter-spacing: 2px;
+  color: var(--text-muted);
+  margin-bottom: 8px;
+}
+
+.title {
+  font-family: 'Cinzel', serif;
+  font-size: 14px;
+  color: var(--gold-light);
+  font-weight: 600;
+  line-height: 1.4;
+  margin-bottom: 10px;
+}
+
+.body {
+  font-size: 14px;
+  color: var(--text-muted);
+  line-height: 1.6;
+}

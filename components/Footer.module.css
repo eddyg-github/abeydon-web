@@ -1,0 +1,26 @@
+.footer {
+  background: var(--surface);
+  border-top: 1px solid var(--border);
+  padding: 28px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.right {
+  text-align: right;
+}
+
+.email {
+  font-family: 'Cinzel', serif;
+  font-size: 9px;
+  letter-spacing: 2px;
+  color: var(--text-muted);
+  margin-bottom: 4px;
+}
+
+.copy {
+  font-size: 11px;
+  color: var(--text-muted);
+  opacity: 0.4;
+}
