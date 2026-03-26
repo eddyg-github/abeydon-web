@@ -14,7 +14,8 @@ export default function Hero() {
       />
       <div className={styles.divider} />
       <p className={styles.sub}>Heavy Metal Clásico · Argentina</p>
-      
+
+      <a
         href="https://open.spotify.com/intl-es/album/3Kf5uPflscadekMA6OC5Tv"
         target="_blank"
         rel="noopener noreferrer"
