@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build --no-turbopack",
+    "build": "next build",
     "start": "next start",
     "lint": "eslint"
   },
@@ -16,7 +16,7 @@
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
     "eslint": "^9",
-    "eslint-config-next": "^15.3.3",
+    "eslint-config-next": "^16.2.1",
     "tailwindcss": "^4"
   }
 }
